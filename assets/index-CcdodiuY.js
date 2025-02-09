@@ -73,7 +73,9 @@ Error generating stack: `+o.message+`
   @media (max-width: 768px) {
     padding: 1rem;
     position: static;
+    height: auto;
     overflow-y: auto;
+    width: 100%;
   }
 `,tm=Bt.h1`
   font-size: clamp(2rem, 5vw, 4rem);
@@ -158,6 +160,6 @@ Error generating stack: `+o.message+`
   font-size: 24px;
   color: rgba(255, 0, 0, 0.5);
   animation: ${bh} 10s linear infinite;
-  pointer-events: none;  /* Ensure hearts don't block clicks */
+  pointer-events: none;
   z-index: 1;
 `;function um(){return pe.jsxs(pe.Fragment,{children:[pe.jsx(Qr,{style:{left:"10%",top:"80%",animationDelay:"0s"},children:"❤️"}),pe.jsx(Qr,{style:{left:"30%",top:"85%",animationDelay:"1s"},children:"❤️"}),pe.jsx(Qr,{style:{left:"50%",top:"90%",animationDelay:"2s"},children:"❤️"}),pe.jsx(Qr,{style:{left:"70%",top:"80%",animationDelay:"3s"},children:"❤️"}),pe.jsx(Qr,{style:{left:"90%",top:"85%",animationDelay:"4s"},children:"❤️"})]})}function sm(){const[i,a]=En.useState(!1),[s,p]=En.useState(0),[g,w]=En.useState({x:0,y:0}),_=()=>{w({x:Math.random()*200-100,y:Math.random()*200-100})},I=()=>{p(N=>N+1)};return pe.jsxs(em,{children:[pe.jsx(um,{}),pe.jsx(tm,{children:"Kanna...! 💖"}),pe.jsx(nm,{children:i?pe.jsxs(pe.Fragment,{children:[pe.jsx("p",{children:"Yay! oppukunnanduku 💋💋😘😘"}),pe.jsx("h2",{children:"Naa favourite moments/pics kuda ivve 💖💖 !"}),pe.jsx("p",{children:"Inka ilantivi kaavali unte pettu lekapoina parle time undi create chedam💋💋😘😘"}),pe.jsx(om,{children:Jh.map((N,B)=>pe.jsx(im,{src:N,alt:`Photo ${B+1}`},B))})]}):pe.jsxs(pe.Fragment,{children:[pe.jsx("p",{children:"Will you be my Valentine? 🌹"}),pe.jsxs("div",{style:{display:"flex",justifyContent:"center",flexWrap:"wrap"},children:[pe.jsx(lf,{onClick:()=>a(!0),children:"Yes! 💖"}),pe.jsx(lf,{style:{transform:`translate(${g.x}px, ${g.y}px)`,transition:"transform 0.3s ease-out"},onMouseEnter:_,onClick:()=>{I(),_()},onTouchStart:()=>{I(),_()},children:of[Math.min(s,of.length-1)]})]})]})}),pe.jsx(lm,{src:$h,alt:"Jumping Dog",onClick:()=>alert("Woof! Hiiiii!! Oppuko plsss 🐶")})]})}$p.createRoot(document.getElementById("root")).render(pe.jsx(En.StrictMode,{children:pe.jsx(sm,{})}));
