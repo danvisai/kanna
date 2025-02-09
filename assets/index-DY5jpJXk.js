@@ -61,7 +61,7 @@ Error generating stack: `+o.message+`
   100% { transform: scale(1); }
 `,bh=sn.h1`
   font-size: clamp(2rem, 5vw, 4rem);
-  text-shadow: 2px 2px #ffffff;
+  text-shadow: 1px 1pxrgb(58, 45, 45);
   animation: ${qh} 1.5s infinite;
   margin-bottom: 1rem;
 `,em=sn.div`
