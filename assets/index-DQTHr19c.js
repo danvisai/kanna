@@ -61,7 +61,7 @@ Error generating stack: `+o.message+`
   100% { transform: scale(1); }
 `,bh=sn.h1`
   font-size: clamp(2rem, 5vw, 4rem);
-  text-shadow: 1px 1pxrgb(58, 45, 45);
+  text-shadow: 1px 1px rgb(58, 45, 45);
   animation: ${qh} 1.5s infinite;
   margin-bottom: 1rem;
 `,em=sn.div`
@@ -132,4 +132,4 @@ Error generating stack: `+o.message+`
   &:hover {
     transform: scale(1.05);
   }
-`;function om(){const[i,a]=xn.useState(!1),[s,p]=xn.useState(0),[g,w]=xn.useState({x:0,y:0}),_=()=>{w({x:Math.random()*200-100,y:Math.random()*200-100})},I=()=>{p(N=>N+1)};return Me.jsxs(Jh,{children:[Me.jsx(bh,{children:"Kanna...! 💖"}),Me.jsx(em,{children:i?Me.jsxs(Me.Fragment,{children:[Me.jsx("h2",{children:"Naaa favourite moments/pics kuda ivve💖💖 !"}),Me.jsx(rm,{children:Zh.map((N,B)=>Me.jsx(lm,{src:N,alt:`Photo ${B+1}`},B))})]}):Me.jsxs(Me.Fragment,{children:[Me.jsx("p",{children:"Will you be my Valentine? 🌹"}),Me.jsxs("div",{style:{display:"flex",justifyContent:"center",flexWrap:"wrap"},children:[Me.jsx(nf,{onClick:()=>a(!0),children:"Yes! 💖"}),Me.jsx(nf,{style:{transform:`translate(${g.x}px, ${g.y}px)`,transition:"transform 0.3s ease-out"},onMouseEnter:_,onClick:()=>{I(),_()},onTouchStart:()=>{I(),_()},children:rf[Math.min(s,rf.length-1)]})]})]})}),Me.jsx(nm,{src:Ah,alt:"Jumping Dog",onClick:()=>alert("Woof! Hiiiii!! Oppuko plsss 🐶")})]})}Ap.createRoot(document.getElementById("root")).render(Me.jsx(xn.StrictMode,{children:Me.jsx(om,{})}));
+`;function om(){const[i,a]=xn.useState(!1),[s,p]=xn.useState(0),[g,w]=xn.useState({x:0,y:0}),_=()=>{w({x:Math.random()*200-100,y:Math.random()*200-100})},I=()=>{p(N=>N+1)};return Me.jsxs(Jh,{children:[Me.jsx(bh,{children:"Kanna...! 💖"}),Me.jsx(em,{children:i?Me.jsxs(Me.Fragment,{children:[Me.jsx("h2",{children:"Naa favourite moments/pics kuda ivve💖💖 !"}),Me.jsx(rm,{children:Zh.map((N,B)=>Me.jsx(lm,{src:N,alt:`Photo ${B+1}`},B))})]}):Me.jsxs(Me.Fragment,{children:[Me.jsx("p",{children:"Will you be my Valentine? 🌹"}),Me.jsxs("div",{style:{display:"flex",justifyContent:"center",flexWrap:"wrap"},children:[Me.jsx(nf,{onClick:()=>a(!0),children:"Yes! 💖"}),Me.jsx(nf,{style:{transform:`translate(${g.x}px, ${g.y}px)`,transition:"transform 0.3s ease-out"},onMouseEnter:_,onClick:()=>{I(),_()},onTouchStart:()=>{I(),_()},children:rf[Math.min(s,rf.length-1)]})]})]})}),Me.jsx(nm,{src:Ah,alt:"Jumping Dog",onClick:()=>alert("Woof! Hiiiii!! Oppuko plsss 🐶")})]})}Ap.createRoot(document.getElementById("root")).render(Me.jsx(xn.StrictMode,{children:Me.jsx(om,{})}));
